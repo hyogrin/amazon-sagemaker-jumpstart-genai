@@ -70,7 +70,7 @@ In this lab, we are going to uncover how to setup SageMaker Studio for prompt en
 - Check the instructions for creating GUI within the environment using Streamlit present in `start_playground.txt` file. In order to launch the GUI, click on `File` within SageMaker Studio tab, then click on `New` and navigate to `Terminal`.
   - Within the Terminal, run the following command: `pip install boto3 streamlit streamlit-ace -Uq`
   - Please ignore any warnings or errors related to `pip's dependency..`. 
-  - Next, run the next command found in start_playground.txt -- `streamlit run main.py`. Make sure you are in the right directory to run this command in the terminal (`amazon-sagemaker-genai-jumpstart/studio-playground-ui/`). Once the command is executed, you can view your Streamlit app in your browser.
+  - Next, run the next command found in start_playground.txt -- `streamlit run main.py`. Make sure you are in the right directory to run this command in the terminal (`amazon-sagemaker-jumpstart-genai/studio-playground-ui/`). Once the command is executed, you can view your Streamlit app in your browser.
   - Copy the URL for SageMaker Studio and update the same by appending `/proxy/<port_no>/`. You would have received the port number after running the Streamlit app. Domain URL should look similar to `https://d-lcxav5wg2gdg.studio.us-east-1.sagemaker.aws/jupyter/default/proxy/<port_no>/`
  
 - Now we can get started with the model playground and run prompt engineering on the deployed model endpoint within our environment in a secured fashion.

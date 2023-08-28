@@ -1,1 +1,1 @@
-# amazon-sagemaker-genai-jumpstart
+# amazon-sagemaker-jumpstart-genai
